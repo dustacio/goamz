@@ -64,20 +64,26 @@ type Region struct {
 }
 
 var Regions = map[string]Region{
-	APNortheast.Name:  APNortheast,
-	APNortheast2.Name: APNortheast2,
-	APSoutheast.Name:  APSoutheast,
-	APSoutheast2.Name: APSoutheast2,
-	EUCentral.Name:    EUCentral,
-	EUWest.Name:       EUWest,
-	USEast.Name:       USEast,
-	USEast2.Name:      USEast2,
-	USWest.Name:       USWest,
-	USWest2.Name:      USWest2,
+	APNortheast.Name:  APNortheast,  // Tokyo
+	APNortheast2.Name: APNortheast2, // Seoul
+	APSoutheast.Name:  APSoutheast,  // Singapore
+	APSoutheast2.Name: APSoutheast2, // Sydney
+	CACentral.Name:    CACentral,    // Canada, Central
+	CNNorth.Name:      CNNorth,      // Beijing
+	EUCentral.Name:    EUCentral,    // Frankfurt
+	EUWest.Name:       EUWest,       // Ireland
+	SAEast.Name:       SAEast,       // Sao Paulo
+	USEast.Name:       USEast,       // N. Virginia
+	USEast2.Name:      USEast2,      // Ohio
 	USGovWest.Name:    USGovWest,
-	SAEast.Name:       SAEast,
-	CNNorth.Name:      CNNorth,
-	CACentral.Name:    CACentral,
+	USWest.Name:       USWest,       // N. California
+	USWest2.Name:      USWest2,      // Oregon
+	APSouth.Name:      APSouth,      // Mumbai
+	APNorthEast3.Name: APNorthEast3, // Osaka-Local
+	CNNorthWest.Name:  CNNorthWest,  // Ningxia
+	EUWest2.Name:      EUWest2,      // London
+	EUWest3.Name:      EUWest3,      // Paris
+	EUNorth.Name:      EUNorth,      // Stockholm
 }
 
 // Designates a signer interface suitable for signing AWS requests, params

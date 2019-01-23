@@ -70,6 +70,18 @@ func NewFrom(accessKey, secretKey, region string) (*SQS, error) {
 		aws_region = aws.CNNorth
 	case "ca.central", "ca.central.1":
 		aws_region = aws.CACentral
+	case "ap.south", "ap.south.1":
+		aws_region = aws.APSouth
+	case "ap.northeast.3":
+		aws_region = aws.APNorthEast3
+	case "cn.northwest", "cn.northwest.1":
+		aws_region = aws.CNNorthWest
+	case "eu.west.2":
+		aws_region = aws.EUWest2
+	case "eu.west.3":
+		aws_region = aws.EUWest3
+	case "eu.north", "eu.north.1":
+		aws_region = aws.EUNorth
 	default:
 		return nil, errors.New(fmt.Sprintf("Unknown/Unsupported region %s", region))
 	}
