@@ -1,0 +1,17 @@
+github.com/bitly/go-simplejson v0.5.0 h1:6IH+V8/tVMab511d5bn4M7EwGXZf9Hj6i2xSwkNEM+Y=
+github.com/bitly/go-simplejson v0.5.0/go.mod h1:cXHtHw4XUPsvGaxgjIAn8PhEWG9NfngEKAMDJEczWVA=
+github.com/feyeleanor/raw v0.0.0-20161230191433-4ad22e6f1008 h1:W7nY3ENJAKumJnCLypnkjZZO3yD+FMvUPWLoKnlfF20=
+github.com/feyeleanor/raw v0.0.0-20161230191433-4ad22e6f1008/go.mod h1:3lnUGOE/BGOicxToTnHTiFYUG1Bup5K18K76HBhNuWU=
+github.com/feyeleanor/sets v0.0.0-20180803001058-c97bb9fd8d75 h1:c0DnIAKwnH7LQ1hJziZAHvv8oH8ak1Cpa8LKwAuFNG0=
+github.com/feyeleanor/sets v0.0.0-20180803001058-c97bb9fd8d75/go.mod h1:U5sh2wciCuxSwGtqJr0pjZ9Ok2IhN+cqr/CenkfW6lM=
+github.com/feyeleanor/slices v0.0.0-20161230195401-145c47818f5f h1:TmUk3QmrJSLl8JtY0mh3S8od2ivbsmyMtgrPc+d7Dfk=
+github.com/feyeleanor/slices v0.0.0-20161230195401-145c47818f5f/go.mod h1:M/PTpAXT0rHnpUhsnClYHfu7yqKVYhgjpabsH4PtHVQ=
+github.com/kr/pretty v0.1.0 h1:L/CwN0zerZDmRFUapSPitk6f+Q3+0za1rQkzVuMiMFI=
+github.com/kr/pretty v0.1.0/go.mod h1:dAy3ld7l9f0ibDNOQOHHMYYIIbhfbHSm3C4ZsoJORNo=
+github.com/kr/pty v1.1.1/go.mod h1:pFQYn66WHrOpPYNljwOMqo10TkYh1fy3cYio2l3bCsQ=
+github.com/kr/text v0.1.0 h1:45sCR5RtlFHMR4UwH9sdQ5TC8v0qDQCHnXt+kaKSTVE=
+github.com/kr/text v0.1.0/go.mod h1:4Jbv+DJW3UT/LiOwJeYQe1efqtUx/iVham/4vfdArNI=
+github.com/vaughan0/go-ini v0.0.0-20130923145212-a98ad7ee00ec h1:DGmKwyZwEB8dI7tbLt/I/gQuP559o/0FrAkHKlQM/Ks=
+github.com/vaughan0/go-ini v0.0.0-20130923145212-a98ad7ee00ec/go.mod h1:owBmyHYMLkxyrugmfwE/DLJyW8Ro9mkphwuVErQ0iUw=
+gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 h1:qIbj1fsPNlZgppZ+VLlY7N33q108Sa+fhmuc+sWQYwY=
+gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
