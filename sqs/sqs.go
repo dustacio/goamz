@@ -23,7 +23,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/goamz/goamz/aws"
+	"github.com/dustacio/goamz/aws"
 )
 
 const API_VERSION = "2012-11-05"
@@ -68,6 +68,8 @@ func NewFrom(accessKey, secretKey, region string) (*SQS, error) {
 		aws_region = aws.SAEast
 	case "cn.north", "cn.north.1":
 		aws_region = aws.CNNorth
+	case "ca.central", "ca.central.1":
+		aws_region = aws.CACentral
 	default:
 		return nil, errors.New(fmt.Sprintf("Unknown/Unsupported region %s", region))
 	}

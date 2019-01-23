@@ -1,9 +1,9 @@
 package iam_test
 
 import (
-	"github.com/goamz/goamz/aws"
-	"github.com/goamz/goamz/iam"
-	"github.com/goamz/goamz/iam/iamtest"
+	"github.com/dustacio/goamz/aws"
+	"github.com/dustacio/goamz/iam"
+	"github.com/dustacio/goamz/iam/iamtest"
 	. "gopkg.in/check.v1"
 )
 

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/goamz/goamz/aws"
+	"github.com/dustacio/goamz/aws"
 	. "gopkg.in/check.v1"
 )
 

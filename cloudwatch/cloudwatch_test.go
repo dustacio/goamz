@@ -3,9 +3,9 @@ package cloudwatch_test
 import (
 	"testing"
 
-	"github.com/goamz/goamz/aws"
-	"github.com/goamz/goamz/cloudwatch"
-	"github.com/goamz/goamz/testutil"
+	"github.com/dustacio/goamz/aws"
+	"github.com/dustacio/goamz/cloudwatch"
+	"github.com/dustacio/goamz/testutil"
 	. "gopkg.in/check.v1"
 )
 

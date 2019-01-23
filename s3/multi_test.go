@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/goamz/goamz/s3"
+	"github.com/dustacio/goamz/s3"
 	. "gopkg.in/check.v1"
 )
 

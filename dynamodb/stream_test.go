@@ -3,7 +3,7 @@ package dynamodb_test
 import (
 	"strconv"
 
-	"github.com/goamz/goamz/dynamodb"
+	"github.com/dustacio/goamz/dynamodb"
 	. "gopkg.in/check.v1"
 )
 

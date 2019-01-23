@@ -4,9 +4,9 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/goamz/goamz/aws"
-	"github.com/goamz/goamz/exp/mturk"
-	"github.com/goamz/goamz/testutil"
+	"github.com/dustacio/goamz/aws"
+	"github.com/dustacio/goamz/exp/mturk"
+	"github.com/dustacio/goamz/testutil"
 	. "gopkg.in/check.v1"
 )
 

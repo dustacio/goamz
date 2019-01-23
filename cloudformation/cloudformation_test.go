@@ -6,9 +6,9 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"github.com/goamz/goamz/aws"
-	cf "github.com/goamz/goamz/cloudformation"
-	"github.com/goamz/goamz/testutil"
+	"github.com/dustacio/goamz/aws"
+	cf "github.com/dustacio/goamz/cloudformation"
+	"github.com/dustacio/goamz/testutil"
 )
 
 func Test(t *testing.T) {

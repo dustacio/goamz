@@ -276,6 +276,29 @@ var SAEast = Region{
 	"https://streams.dynamodb.sa-east-1.amazonaws.com",
 }
 
+var CACentral = Region{
+	"ca-central-1",
+	"https://ec2.ca-central-1.amazonaws.com",
+	"https://s3.ca-central-1.amazonaws.com",
+	"",
+	true,
+	true,
+	"https://sdb.ca-central-1.amazonaws.com",
+	"",
+	"https://sns.ca-central-1.amazonaws.com",
+	"https://sqs.ca-central-1.amazonaws.com",
+	"https://iam.ca-central-1.amazonaws.com",
+	"https://elasticloadbalancing.ca-central-1.amazonaws.com",
+	"https://dynamodb.ca-central-1.amazonaws.com",
+	ServiceInfo{"https://monitoring.ca-central-1.amazonaws.com", V4Signature},
+	"https://autoscaling.ca-central-1.amazonaws.com",
+	ServiceInfo{"https://rds.ca-central-1.amazonaws.com", V4Signature},
+	"https://sts.ca-central-1.amazonaws.com",
+	"https://cloudformation.ca-central-1.amazonaws.com",
+	"https://ecs.ca-central-1.amazonaws.com",
+	"https://streams.dynamodb.ca-central-1.amazonaws.com",
+}
+
 var CNNorth = Region{
 	"cn-north-1",
 	"https://ec2.cn-north-1.amazonaws.com.cn",
